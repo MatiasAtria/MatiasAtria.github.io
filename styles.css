@@ -1,0 +1,52 @@
+body {
+	font-family: "Nunito", "Trebuchet MS", sans-serif;
+	background-color: #141017;
+	color: #C86BFF;
+	margin: 0;
+	padding: 20px;
+}
+
+h1,
+h2 {
+	color: #C86BFF;
+}
+
+a {
+	color: #D28BFF;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 12px;
+}
+
+th,
+td {
+	border: 1px solid #C86BFF;
+	padding: 8px;
+	text-align: left;
+}
+
+th {
+	background-color: #231a2a;
+}
+
+tr:nth-child(even) {
+	background-color: #1b1521;
+}
+
+input[type="text"] {
+	padding: 8px;
+	border: 1px solid #C86BFF;
+	background-color: #1b1521;
+	color: #E7C7FF;
+}
+
+button {
+	padding: 8px 12px;
+	border: 1px solid #C86BFF;
+	background-color: #2a1d33;
+	color: #E7C7FF;
+	cursor: pointer;
+}

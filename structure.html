@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Personal Page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <h1>Personal Information</h1>
+        <ul>
+            <li>Name: Matias Atria</li>
+            <li>Major: Computer Science</li>
+            <li>Year of University Enrollment: 2023</li>
+            <li>Github Link: <a href="https://github.com/MatiasAtria">https://github.com/MatiasAtria</a></li>
+            <li>Personal Summary: I like everything related to computing, such as programming, the structure and operation of computers, and I really like Radiohead.</li>
+        </ul>
+        <table>
+            <th>Skill</th>
+            <th>Level</th>            
+            <tr>
+                <td>Python</td>
+                <td>Advance</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>HTML/CSS</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>Git</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>Excel</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>SQL</td>
+                <td>Intermediate</td>
+            </tr>
+            <tr>
+                <td>Ruby</td>
+                <td>Basic</td>
+            </tr>
+            <tr>
+                <td>English</td>
+                <td>Advance</td>
+            </tr>
+            <tr>
+                <td>Spanish</td>
+                <td>Native</td>
+            </tr>
+        </table>
+
+        <p id="dynamicText">Message: Press the button to change this text.</p>
+        <button id="changeTextButton">Change Message</button>
+
+        <script>
+            const changeTextButton = document.getElementById("changeTextButton");
+            const dynamicText = document.getElementById("dynamicText");
+
+            changeTextButton.addEventListener("click", () => {
+                dynamicText.textContent = "Message: Button pressed successfully.";
+            });
+        </script>
+
+    </body>
+</html>
